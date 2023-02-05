@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg3.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    /*font-family: sans-serif;*/
+}
+.box ul{
+    text-align: center;
+    list-style-position:inside; 
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+    
+}
+box li a:hover{
+    color: #b9b9b9;
+}
+.hobbylist{
+    color: white;
+    text-decoration: none;
+}
+
+.box-img{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+.box p{
+    text-align: center;
+}
+h1{
+    /*font-family: sans-serif;*/
+    color: white;
+    text-align: center;
+}
+.box ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.ass-table{
+    margin-top: 10px;
+    border: none;
+    color: black;
+}
+.ass-table a{
+    color: black;
+}
+.ass-table th{
+    /*font-family: sans-serif;*/
+}
+.ass-table td{
+    /*font-family: sans-serif;*/
+    text-align: center;
+}
+.ass-table tr:nth-child(even){
+    background-color: lightblue;
+}
+.ass-table table{
+    width: 45%;
+    height:30;  
+     
+}
+.albums p,ul{
+    text-align: center;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.quote{
+    text-align: center;
+    color: white;
+    /*font-family: sans-serif;*/
+}
+.education{
+    list-style-position:inside; 
+}
+
+
